@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 		{
 			execute(content, &stack, counter, file);
 		}
-		fre(content);
+		free(content);
 	}
 	free_stack(stack);
 	fclose(file);
